@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Valorant Companion</string>
+    <string name="menu">Menú</string>
+    <string name="home">Inicio</string>
+    <string name="agents">Agentes</string>
+    <string name="weapons">Armas</string>
+    <string name="maps">Mapas</string>
+    <string name="settings">Configuración</string>
+    <string name="welcome">Bienvenido a Valorant Companion</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="show_password">Mostrar contraseña</string>
+    <string name="hide_password">Ocultar contraseña</string>
+    <string name="level">Nivel (solo números)</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="change_theme">Cambiar Tema</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="agent_list">Lista de Agentes</string>
+    <string name="agent_not_found">Agente no encontrado.</string>
+    <string name="go_back">Volver</string>
+    <string name="weapons_list">Armas en Valorant</string>
+    <string name="maps_list">Mapas Disponibles</string>
+
+    <string name="agent_jett_name">Jett</string>
+    <string name="agent_jett_desc">Experta en movilidad con cuchillos letales.</string>
+
+    <string name="agent_phoenix_name">Phoenix</string>
+    <string name="agent_phoenix_desc">Controla el fuego y se regenera con sus llamas.</string>
+
+    <string name="agent_sova_name">Sova</string>
+    <string name="agent_sova_desc">Arquero con habilidades de rastreo y dron explorador.</string>
+
+    <string name="agent_viper_name">Viper</string>
+    <string name="agent_viper_desc">Especialista en venenos y control de zona.</string>
+
+    <string name="agent_cypher_name">Cypher</string>
+    <string name="agent_cypher_desc">Experto en vigilancia con trampas y cámaras.</string>
+
+    <string name="weapon_vandal_name">Vandal</string>
+    <string name="weapon_vandal_desc">Un rifle de asalto potente y preciso, conocido por su daño constante sin importar la distancia. Es ideal para jugadores con buena puntería, ya que un solo disparo a la cabeza garantiza una eliminación. Sin embargo, su retroceso puede ser difícil de controlar en ráfagas largas, lo que la hace menos efectiva en enfrentamientos de corto alcance si se usa en modo automático.</string>
+    <string name="weapon_phantom_name">Phantom</string>
+    <string name="weapon_phantom_desc">Un rifle versátil con menor retroceso y mayor cadencia de fuego que la Vandal. Su silenciador reduce el ruido del disparo y oculta las trazas de bala, lo que la hace ideal para emboscadas y disparos sorpresa. A diferencia de la Vandal, su daño disminuye con la distancia, por lo que es más efectiva a media y corta distancia.</string>
+    <string name="weapon_operator_name">Operator</string>
+    <string name="weapon_operator_desc">El francotirador más letal de Valorant. Capaz de eliminar a un enemigo con un solo disparo al cuerpo o la cabeza, es la mejor opción para cubrir líneas de visión largas y asegurar eliminaciones rápidas. Sin embargo, su alto costo, su cadencia de fuego lenta y su movilidad reducida la hacen una elección arriesgada si no se usa con precisión.</string>
+    <string name="weapon_sheriff_name">Sheriff</string>
+    <string name="weapon_sheriff_desc">Una pistola de alto calibre que inflige un gran daño por bala. Es una opción popular en rondas económicas gracias a su capacidad de eliminar enemigos con un solo disparo a la cabeza a cualquier distancia. Sin embargo, su retroceso elevado y su pequeño cargador la hacen menos perdonadora en manos inexpertas.</string>
+    <string name="map_ascent_name">Ascent</string>
+    <string name="map_bind_name">Bind</string>
+    <string name="map_haven_name">Haven</string>
+    <string name="map_split_name">Split</string>
+    <string name="map_fracture_name">Fracture</string>
+    <string name="map_ascent_desc">Ubicado en Italia, Ascent es un mapa de estilo clásico con una gran zona central abierta que permite intensos enfrentamientos por el control del medio. Sus dos sitios de bomba, A y B, están separados por puertas destructibles, lo que brinda oportunidades estratégicas tanto para atacantes como para defensores. Su diseño fomenta el uso de habilidades de control y posicionamiento para dominar las líneas de visión.</string>
+    <string name="map_bind_desc">Situado en un entorno desértico, Bind es único por su ausencia de un área central y la inclusión de teletransportadores unidireccionales que permiten rotaciones rápidas entre los sitios A y B. Esto genera un estilo de juego dinámico donde los equipos deben anticipar los movimientos del enemigo y utilizar la información a su favor. Su diseño favorece tanto el juego agresivo como el control defensivo con habilidades de zona.</string>
+    <string name="map_haven_desc">Uno de los mapas más distintivos de Valorant, Haven introduce un tercer sitio de bomba (A, B y C), lo que añade una capa extra de complejidad estratégica. Los atacantes tienen más opciones para ejecutar jugadas, mientras que los defensores deben distribuirse inteligentemente para cubrir todos los accesos. Este diseño favorece tanto el juego táctico como la adaptabilidad de los equipos.</string>
+    <string name="map_split_desc">Caracterizado por su diseño vertical y estrechos pasillos, Split es un mapa donde los enfrentamientos suelen darse en espacios reducidos. Su punto central elevado permite un control clave de la partida, y las cuerdas ofrecen movilidad extra. Los defensores suelen tener ventaja debido a las largas distancias de rotación de los atacantes, lo que hace que las estrategias coordinadas sean esenciales para tomar los sitios.</string>
+    <string name="map_fracture_desc">Un mapa innovador que rompe con la estructura tradicional al permitir a los atacantes comenzar desde dos lados opuestos del mapa, generando una presión constante sobre los defensores. Con un sistema de cuerdas que facilita la movilidad y múltiples puntos de entrada a cada sitio, Fracture obliga a los jugadores a adaptarse a un estilo de juego más dinámico y caótico, donde la comunicación y la información son claves.</string>
+
+</resources>
