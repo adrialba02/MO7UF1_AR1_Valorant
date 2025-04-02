@@ -51,7 +51,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -69,6 +68,7 @@ dependencies {
     implementation(libs.androidx.animation.core.lint)
     implementation(libs.firebase.database)
     implementation("com.google.firebase:firebase-database:20.1.0")
+    implementation("com.google.firebase:firebase-auth:21.0.3") // si usas autenticación
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -77,3 +77,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 }
+
+// Aplica el plugin de google-services
+apply(plugin = "com.google.gms.google-services")
