@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "808744782216",
+    "firebase_url": "https://mo7uf1valorant-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mo7uf1valorant",
+    "storage_bucket": "mo7uf1valorant.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808744782216:android:10d4dcbeec20b530c2123d",
+        "android_client_info": {
+          "package_name": "com.example.companionapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOOqt7SodFReh6huDe9j4k765v5vj-9oU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
