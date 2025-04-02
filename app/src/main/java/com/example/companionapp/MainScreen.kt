@@ -9,7 +9,9 @@ import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.*
+import com.example.companionapp.ui.theme.CompanionAppTheme
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -58,8 +60,11 @@ fun MainScreen(onToggleTheme: () -> Unit) {
                 onLogout = {
                     isLoggedIn = false
                     user = null
-                }
+                },
+                drawerState = drawerState,
+                scope = scope
             )
         }
     }
 }
+

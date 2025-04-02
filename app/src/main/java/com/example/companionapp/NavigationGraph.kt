@@ -1,11 +1,13 @@
 package com.example.companionapp
 
+import androidx.compose.material3.DrawerState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.example.companionapp.*
+import kotlinx.coroutines.CoroutineScope
 
 @Composable
 fun NavigationGraph(
@@ -15,10 +17,12 @@ fun NavigationGraph(
     isLoggedIn: Boolean,
     user: User?,
     onLoginSuccess: (User) -> Unit,
-    onLogout: () -> Unit
+    onLogout: () -> Unit,
+    drawerState: DrawerState,
+    scope: CoroutineScope
 ) {
     NavHost(navController, startDestination = "home", modifier = modifier) {
-        composable("home") { HomeScreen(onLoginSuccess, isLoggedIn, user) }
+        composable("home") { HomeScreen(onLoginSuccess, isLoggedIn, user, navController, drawerState, scope) }
 
         if (isLoggedIn) {
             composable("agents") { AgentsScreen(navController) }
